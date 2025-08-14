@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.city-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.city {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.city:hover {
+    transform: scale(1.05);
+}
+.city img {
+    width: 100%;
+    height: auto;
+}
+.city span {
+    display: block;
+    padding: 10px;
+    background: white;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacum - Passeggiata Virtuale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Benvenuto su Sacum</h1>
+    <p>Scegli una città e inizia la passeggiata virtuale:</p>
+    <div class="city-container">
+        <div class="city" onclick="openCity('londra')">
+            <img src="assets/londra.jpg" alt="Londra">
+            <span>Londra</span>
+        </div>
+        <div class="city" onclick="openCity('newyork')">
+            <img src="assets/newyork.jpg" alt="New York">
+            <span>New York</span>
+        </div>
+        <div class="city" onclick="openCity('parigi')">
+            <img src="assets/parigi.jpg" alt="Parigi">
+            <span>Parigi</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
